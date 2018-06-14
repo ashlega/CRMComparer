@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<exportconfig orgName="cmclocal02" serverName="inman" userName="" password="" domain="">
+	<entities>
+		<entity>lead</entity>
+		<entity>contact</entity>
+    <entity>account</entity>
+	</entities>
+</exportconfig>
