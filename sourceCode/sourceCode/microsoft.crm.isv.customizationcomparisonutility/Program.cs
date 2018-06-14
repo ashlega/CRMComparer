@@ -21,7 +21,7 @@ namespace Microsoft.Crm.Isv.CustomizationComparisonUtility
                     connector.CreateChangleLogForSolution(args[0]);
                 }
             }
-            else 
+            else
             {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
