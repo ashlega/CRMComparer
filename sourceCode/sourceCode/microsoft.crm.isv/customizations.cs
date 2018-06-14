@@ -20661,7 +20661,7 @@ namespace Microsoft.Crm.Isv.Customizations
         /// Adding new FormType: mainInteractionCentric - Thymio Barbatsis 03/14/2016
         mainInteractionCentric,
 
-        taskBasedForm
+        taskBasedForm 
 
     }
 
