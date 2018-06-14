@@ -71,9 +71,10 @@ namespace Microsoft.Crm.Isv
         public string[] ExportSolution(string solutionUniqueName)
         {
             string folder = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "solutions");
+            if (!System.IO.Directory.Exists(folder)) System.IO.Directory.CreateDirectory(folder);
             int lastFileVersionNumber = GetLastVersionNumber(solutionUniqueName, folder);
 
-            if (!System.IO.Directory.Exists(folder)) System.IO.Directory.CreateDirectory(folder);
+            
             string[] result = new string[2];
             ExportSolutionRequest exportSolutionRequest = new ExportSolutionRequest();
             exportSolutionRequest.Managed = false;
