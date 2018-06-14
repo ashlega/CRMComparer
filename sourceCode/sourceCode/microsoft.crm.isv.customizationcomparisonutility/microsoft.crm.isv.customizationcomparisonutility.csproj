@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Microsoft.Crm.Isv.CustomizationComparisonUtility</RootNamespace>
-    <AssemblyName>CRM Customization Comparison Utility</AssemblyName>
+    <AssemblyName>ChangeTrackingTool</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationIcon>DataMover.ico</ApplicationIcon>
